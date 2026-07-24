@@ -12,7 +12,7 @@ export const SimpleCounter = () => {
     return (
         <div>
             <h2>Count: {count}</h2>
-            <button onClick={handleClick}>Increment the Counter</button>
+            <button onClick={handleClick}>Increment the Counter (+1)</button>
         </div>
     )
 
