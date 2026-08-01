@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <h1>Welcome to my app!</h1>
+      <h1>Welcome to my WebApp!</h1>
     </div>
   )
 }
