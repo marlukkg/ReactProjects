@@ -7,12 +7,8 @@ function App() {
 
   return (
     <div>
-      <SimpleCounter/>
       <h1>Welcome to my app!</h1>
-      <Welcome name="Marko" lastName="Lukic" />
-      <Welcome name="Rehor" lastName="Floryan"/>
-      <Welcome name="Irena" lastName="Volfova"/>
-      <Button />
+      <SimpleCounter/>
     </div>
   )
 }
