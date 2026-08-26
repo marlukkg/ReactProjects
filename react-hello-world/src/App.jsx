@@ -1,7 +1,4 @@
 import './App.css'
-import { Welcome } from './Welcome';
-import { Button } from './Button';
-import { SimpleCounter } from './SimpleCounter';
 import { Link } from 'react-router-dom';
 
 function App() {
