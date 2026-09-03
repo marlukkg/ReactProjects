@@ -130,6 +130,16 @@ body {
   box-sizing: border-box;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Takes full height of the viewport */
+}
+
+.main-content {
+  flex: 1; /* Forces the main area to grow and consume all remaining space */
+}
+
 h1,
 h2 {
   font-family: var(--heading);

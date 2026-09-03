@@ -20,7 +20,7 @@ import {
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <div>
+      <div className="app-container">
         {/* Navigation Bar */}
         <nav style={{ padding: '10px', backgroundColor: 'gray', display: 'flex', gap: '20px', }}>
           <NavigationMenu>
@@ -36,7 +36,7 @@ createRoot(document.getElementById('root')).render(
         </nav>
 
         {/* Route Configuration */}
-        <main style={{ padding: '20px' }}>
+        <main className="main-content" style={{ padding: '20px' }}>
           <Routes>
             <Route path="/" element={<App />} />
             <Route path="/about" element={<About />} />
@@ -47,8 +47,9 @@ createRoot(document.getElementById('root')).render(
 
           
         </main>
-
-
+        <footer style={{ padding: '10px', backgroundColor: 'gray', display: 'flex', gap: '20px', }}>
+          
+        </footer>
       </div>
     </BrowserRouter>
   </StrictMode>,
