@@ -14,6 +14,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "./components/ui/navigation-menu"
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 
@@ -48,7 +49,7 @@ createRoot(document.getElementById('root')).render(
           
         </main>
         <footer style={{ padding: '10px', backgroundColor: 'gray', display: 'flex', gap: '20px', }}>
-          
+          <Link to="https://www.linkedin.com/in/marlukweb/"><LinkedInIcon></LinkedInIcon></Link>
         </footer>
       </div>
     </BrowserRouter>
